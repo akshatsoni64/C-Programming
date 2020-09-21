@@ -1,5 +1,5 @@
 #include<stdio.h>
-#include<conio.h>
+#include<stdlib.h>
 
 int i;
 
@@ -17,10 +17,9 @@ void display();
 void insbeg();
 void delbeg();
 
-void main()
+int main()
 {
 	int ch;
-	clrscr();
 	A:
 	printf("\nEnter Choice :\n1. Create\n2. Display\n3. Insert at Beginning \n4. Delete at Beginning\n0. Exit\n: ");
 	scanf("%d",&ch);
@@ -53,7 +52,6 @@ void main()
 		case 0:
 		{
 			printf("\nExit");
-			getch();
 			exit(0);
 		}
 		default:
@@ -62,6 +60,8 @@ void main()
 			goto A;
 		}
 	}
+
+    return 0;
 }
 
 void create()
