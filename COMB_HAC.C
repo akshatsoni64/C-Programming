@@ -1,10 +1,9 @@
 #include<stdio.h>
-#include<conio.h>
+#include<stdlib.h>
 
-void main()
+int main()
 {
 	int s,a[10][10],i,i1,j;
-	clrscr();
 	printf("Enter No : ");
 	scanf("%d",&s);
 	for(i=0;i<s;i++)
@@ -21,5 +20,5 @@ void main()
 		}
 		printf("\n");
 	}
-	getch();
+	return 0;
 }

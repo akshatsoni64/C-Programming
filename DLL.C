@@ -1,23 +1,23 @@
 #include<stdio.h>
-#include<conio.h>
+#include<stdlib.h>
 
 int i;
 
-struct node
+typedef struct node
 {
 	struct node *prev;
 	int info;
 	struct node *next;
-};
+} node;
 
 int t=0;
-struct node *start=NULL;
-struct node *end=NULL;
+node *start=NULL;
+node *end=NULL;
 
 void create()
 {
 	int n,v;
-	struct node *newnode;
+	node *newnode;
 
 	printf("Enter No. of Nodes : ");
 	scanf("%d",&n);
@@ -27,7 +27,7 @@ void create()
 	{
 		printf("Enter Info for Node %d :",i+1);
 		scanf("%d",&v);
-		newnode=(struct node *)malloc(sizeof(struct node *));
+		newnode=(node *)malloc(sizeof(struct node *));
 		newnode->info=v;
 		newnode->next=start;
 		start=newnode;
@@ -37,7 +37,7 @@ void create()
 
 void display()
 {
-	struct node *p;
+	node *p;
 	p=start;
 
 	if(p==NULL)
@@ -55,10 +55,9 @@ void display()
 	printf("\n");
 }
 
-void main()
+int main()
 {
 	int ch;
-	clrscr();
 	A:
 	printf("\nEnter Choice :\n1. Create\n2. Display\n0. Exit\n: ");
 	scanf("%d",&ch);
@@ -79,8 +78,7 @@ void main()
 		case 0:
 		{
 			printf("\nExit");
-			getch();
-			exit(0);
+			return 0;
 		}
 		default:
 		{

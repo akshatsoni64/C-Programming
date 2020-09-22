@@ -1,5 +1,4 @@
 #include<stdio.h>
-#include<conio.h>
 
 struct slry
 {
@@ -9,17 +8,15 @@ struct slry
 	unsigned int BS;
 }s[10];
 
-void main()
+int main()
 {
 
 	int i,n;
 
-	clrscr();
-
 	printf("Enter No. of Employees (Max=10) : ");
 	scanf("%d",&n);
 
-	clrscr();
+	printf("\n\n\n");
 
 	for(i=0;i<n;i++)
 	{
@@ -32,7 +29,7 @@ void main()
 		scanf("%d",&s[i].BS);
 		printf("Enter other Allowances of Employee : ");
 		scanf("%d",&s[i].TA);
-		clrscr();
+		printf("\n\n\n");
 	}
 
 	for(i=0;i<n;i++)
@@ -51,10 +48,9 @@ void main()
 		printf("\n\t|DA : %f \t|HRA : %f\t|TA : %d",s[i].DA,s[i].HRA,s[i].TA);
 		printf("\n\t|Basic Salary: %1d |Total Salary : %f",s[i].BS,s[i].TT);
 		printf("\n\n\t-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*");
-		getch();
-		clrscr();
+		printf("\n\n\n");
 	}
 
-	printf("\n\n\t\t\t\t!!Thank You!!");
-	getch();
+	printf("\n\n\t\t\t\t!! Thank You !!");
+	return 0;
 }
