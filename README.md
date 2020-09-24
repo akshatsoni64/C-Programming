@@ -7,15 +7,15 @@ Programs contained in the repository are as follows:
 
 - Simple Programs to get started in C-Programming Language
 > Armstrong Number
-> Factorial of a Number
-Fibonacci Series
-Greatest Common Divisor
-Maximum Element out of an Array
-Minimum Element out of an Array
-Prime Number
+> - Factorial of a Number
+> - Fibonacci Series
+> - Greatest Common Divisor
+> - Maximum Element out of an Array
+> - Minimum Element out of an Array
+> - Prime Number
 - Functions
--- Math Functions
--- String Functions
+> - Math Functions
+> - String Functions
 
 - Data Types
 - Data Structures
