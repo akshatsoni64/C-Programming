@@ -19,33 +19,33 @@ Programs contained in the repository are as follows:
 
 - Data Types
 - Data Structures
--- Arrays
--- Pointers
--- Stacks
--- Queues
--- Structures
--- Unions
--- Linked Lists
---- Singly Linkedlists
---- Doubly Linkedlists
--- Tree
+> - Arrays
+> - - Pointers
+> - Stacks
+> - Queues
+> - Structures
+> - Unions
+> - Linked Lists
+> - - Singly Linkedlists
+> - - Doubly Linkedlists
+> - Tree
 - Algorithms
--- Sorting Algorithms
---- Bubble Sort
---- Merge Sort
---- Selection Sort
--- Searching Algorithms
---- Sequential Search
---- Binary Search
+> - Sorting Algorithms
+> - - Bubble Sort
+> - - Merge Sort
+> - - Selection Sort
+> - Searching Algorithms
+> - - Sequential Search
+> - - Binary Search
 - String
--- Reverse String
--- Compare String
--- Find Substring
--- Change Case of Characters
+> - Reverse String
+> - Compare String
+> - Find Substring
+> - Change Case of Characters
 - File Handling
 - Other
--- Salary Slip Generation
--- Demonstrating use of Macros
--- Area of Geometric Shapes
+> - Salary Slip Generation
+> - Demonstrating use of Macros
+> - Area of Geometric Shapes
 
 Note: Most of the programs provided in the repository were executed in Turbo C++ Compiler, you can change them a bit and use GCC Complier for compiling and running the programs.
