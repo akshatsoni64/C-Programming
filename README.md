@@ -6,7 +6,7 @@ This repository contains various practice programs that are taught while teachin
 Programs contained in the repository are as follows:
 
 - Simple Programs to get started in C-Programming Language
-> Armstrong Number
+> - Armstrong Number
 > - Factorial of a Number
 > - Fibonacci Series
 > - Greatest Common Divisor
