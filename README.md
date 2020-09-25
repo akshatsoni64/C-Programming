@@ -18,7 +18,7 @@ Programs contained in the repository are as follows:
 > - String Functions
 - Data Structures
 > - Arrays
-> - - Pointers
+> - Pointers
 > - Stacks
 > - Queues
 > - Structures
