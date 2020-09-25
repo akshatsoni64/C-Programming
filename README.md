@@ -16,8 +16,6 @@ Programs contained in the repository are as follows:
 - Functions
 > - Math Functions
 > - String Functions
-
-- Data Types
 - Data Structures
 > - Arrays
 > - - Pointers
@@ -42,8 +40,9 @@ Programs contained in the repository are as follows:
 > - Compare String
 > - Find Substring
 > - Change Case of Characters
-- File Handling
 - Other
+> - Data Types
+> - File Handling
 > - Salary Slip Generation
 > - Demonstrating use of Macros
 > - Area of Geometric Shapes
