@@ -1,11 +1,8 @@
 #include<stdio.h>
-#include<conio.h>
 
 int main()
 {
 	int a[100],low,high,mid,i,n,x;
-
-	clrscr();
 
 	printf("Enter Array Size : ");
 	scanf("%d",&n);
@@ -47,6 +44,5 @@ int main()
 		printf("Unsuccesful");
 	}
 
-	getch();
 	return 0;
 }
